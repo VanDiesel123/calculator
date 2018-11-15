@@ -3,9 +3,10 @@
 
 class Calculator
 {
-	public:
-		int Add (double, double);
-		int Sub (double, double);
+    public:
+        int Add(double, double);   // додає два числа
+        int Sub(double, double);   // віднімання
+        int Mul(double, double);   // множення
 };
 
-#endif//CALCULATOR_H
+#endif // CALCULATOR_H
